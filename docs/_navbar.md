@@ -10,13 +10,6 @@
   * [docsify实现侧边栏可折叠](https://github.com/iPeng6/docsify-sidebar-collapse)
   * [docsify侧边栏可折叠效果](https://cpury.com/1408.html)
   
-  <!-- 这里写绝对地址是为了PDF全屏的时候回到主页，
-  也可以通过浏览器的回退箭头回到主页,把本地地址替换成里的实际地址
-   -->
-* 首页
-  * [返回首页](https://lucamodric.github.io/DocsifyDemo/?id=main)
-
-
-
+  
   
 
