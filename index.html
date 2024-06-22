@@ -7,6 +7,7 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <base href="https://lucamodric.github.io/DocsifyDemo/" />
 </head>
 <body>
   <div id="app"></div>
@@ -19,7 +20,7 @@
 	  subMaxLevel: 3, // 生成目录的最大层级
 	  sidebarDisplayLevel: 1,
 	  coverpage: true,
-	  basePath: '/DocsifyDemo',
+	 // basePath: '/DocsifyDemo',
 	  routerMode: 'history', // 路由模式，url不会出现#
 	  // 入口文件改为 home.md
         homepage: '_home.md',
@@ -32,11 +33,11 @@
     }
 
   </script>
-  <!-- Docsify v4
+  <!-- Docsify v4-->
   <script src="//cdn.jsdelivr.net/npm/docsify@4">
-  </script> -->
-  <!--  解决routerMode: 'history'页面404问题 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js?no-router"></script>
+  </script> 
+  <!--  尝试解决routerMode: 'history'页面404问题 
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js?no-router"></script>-->
     <!-- 搜索插件 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
     <!-- 一键复制插件 -->
