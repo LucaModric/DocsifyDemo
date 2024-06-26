@@ -7,6 +7,16 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <!--
+       #绕过图片防盗链的防护机制
+       三种情况下允许引用图片：
+           1，本网站。
+           2，无referer信息的情况。（服务器认为是从浏览器直接访问的图片URL，所以这种情况下能正常访问）
+           3，授权的网址。
+       参考博客:https://blog.csdn.net/qq_57581439/article/details/129251624
+       是否有的图床设置的就是白名单呢,即不支持2
+   -->
+  <meta name="referrer" content="no-referrer">
   
 </head>
 <body>
