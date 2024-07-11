@@ -4,6 +4,5 @@
 # 新的问题的原因是访问每个MD,都会去加载_navbar.md和_sidebar.md，而对应的MD同级目录下是没有这；两个
 # 文件的，拷贝文件进去发现没loading
 
-/*  /index.html 200
 
 
