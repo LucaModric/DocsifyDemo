@@ -1,13 +1,13 @@
 [[redirects]]
-  from = "/*_navbar.md"
+  from = "/*/_navbar.md"
   to = "/_navbar.md"
-  status = 200
+  status = 301
   force = true
 
 [[redirects]]
-  from = "/*_sidebar.md"
+  from = "/*/_sidebar.md"
   to = "/_sidebar.md"
-  status = 200
+  status = 301
   force = true
 
 
