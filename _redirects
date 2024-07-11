@@ -5,7 +5,10 @@
 
 # 新的问题的原因是访问每个MD,都会去加载同级目录下的_navbar.md和_sidebar.md，而这两个文件都只有一份全局的文件，不是每个MD都有匹配
 # 故导致出现loading字样，解决方法是为每个MD生成对应的_navbar.md和_sidebar.md
+# 这里的规则貌似是所有资源必须是在单页面直接存在的
+# _navbar.md和_sidebar.md默认是会往上级目录找存在的文件，但这个docsify的规则
+# 在netlify刷新时并不使用，没有就是没有，不会往上找
+# 至于能不能再对这两个文件的请求重定向到根路径呢，试了下没成功，不知是不支持，还是重定向语句写的不对。
 
 
-/*-/_navbar.md  /_navbar.md 301
-/*  /index.html 200
+ /*  /index.html 200
