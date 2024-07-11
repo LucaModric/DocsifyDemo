@@ -7,5 +7,5 @@
 # 故导致出现loading字样，解决方法是为每个MD生成对应的_navbar.md和_sidebar.md
 
 
-/*-/_navbar.md  /_navbar.md
+/*-/_navbar.md  /_navbar.md 301
 /*  /index.html 200
