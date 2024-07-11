@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/*_navbar.md"
+  to = "/_navbar.md"
+  status = 301
+  force = true
